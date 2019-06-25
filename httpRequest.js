@@ -1,6 +1,5 @@
 class myHttpRequest {
     httpReq = new XMLHttpRequest;
-
     // get data
     get(url, callbackFun) {
         this.httpReq.open('GET', url, true);
